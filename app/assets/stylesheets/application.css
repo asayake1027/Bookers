@@ -1,16 +1,196 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+/** {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+/*  box-sizing: border-box;*/
+/*  font-family: verdana, arial, helvetica, sans-serif;*/
+/*}*/
 
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+}
+
+/*topページ*/
+.top {
+  margin: 33px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.hometop {
+  margin: 33px;
+}
+
+.start {
+  margin: 33px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*indexページ*/
+
+
+.indexbox {
+  margin: 33px;
+}
+
+table {
+  font-size: 13px;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+    
+tr {
+  display: table-row;
+  border-color: inherit;
+}
+
+th {
+  display: table-cell;
+    font-weight: bold;
+}
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+  padding: 1px 5px 7px 5px;
+  display: table-cell;
+}
+
+/*index 新規投稿ページ*/
+
+.field{
+  margin-bottom: 10px;
+}
+
+.field_with_errors {
+    padding: 2px;
+    background-color: red;
+    display: table;
+}
+
+
+
+.formtitle {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/*showページ*/
+.show {
+  margin: 33px;
+}
+
+.show > p {
+  margin: 33px
+}
+
+/*editページ*/
+.edit {
+  margin: 33px 0px 10px 33px;
+}
+
+.editlink {
+  margin: 0px 33px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+/*flashメッセージ*/
+.notice {
+  color: green
+}
+
+/*エラーメッセージ*/
+
+.errormes {
+    width: 450px;
+    padding-bottom: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .errormes h4 {
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+  
+  .errormes ul {
+    margin: 33px;
+}
+  
+  .errormes ul li {
+    font-size: 12px;
+    list-style: square;
+    padding-bottom: 5px;
+}
+
+
+label {
+  font-size: 13px;
+    display: block;
+}
+
+
+.editerrormes {
+    width: 450px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+  }
+
+.editerrormes h4 {
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    background-color: #c00;
+    color: #fff;
+  }
+  
+  .editerrormes ul {
+    margin: 33px;
+}
+  
+  .editerrormes ul li {
+    font-size: 12px;
+    list-style: square;
+    padding-bottom: 5px;
+}
