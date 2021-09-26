@@ -12,7 +12,6 @@ body {
     line-height: 18px;
 }
 
-/*topページ*/
 .top {
   margin: 33px;
 }
@@ -47,9 +46,6 @@ a:hover {
   color: white;
 }
 
-/*indexページ*/
-
-
 .indexbox {
   margin: 33px;
 }
@@ -79,7 +75,6 @@ th {
     font-weight: bold;
 }
 
-
 tbody {
     display: table-row-group;
     vertical-align: middle;
@@ -91,8 +86,6 @@ td {
   display: table-cell;
 }
 
-/*index 新規投稿ページ*/
-
 .field{
   margin-bottom: 10px;
 }
@@ -103,14 +96,11 @@ td {
     display: table;
 }
 
-
-
 .formtitle {
   margin-top: 15px;
   margin-bottom: 0;
 }
 
-/*showページ*/
 .show {
   margin: 33px;
 }
@@ -119,7 +109,6 @@ td {
   margin: 33px
 }
 
-/*editページ*/
 .edit {
   margin: 33px 0px 10px 33px;
 }
@@ -131,12 +120,9 @@ td {
   text-decoration: none;
 }
 
-/*flashメッセージ*/
 .notice {
   color: green
 }
-
-/*エラーメッセージ*/
 
 .errormes {
     width: 450px;
@@ -163,12 +149,10 @@ td {
     padding-bottom: 5px;
 }
 
-
 label {
   font-size: 13px;
     display: block;
 }
-
 
 .editerrormes {
     width: 450px;

@@ -1,3 +1,4 @@
+
 <div class ="index">
   
   <div class ="indexbox">
@@ -18,7 +19,7 @@
 
   <tbody>
     
-    <!--投稿データ-->
+    
       <% @books.each do |book| %>
       
       <tr>
@@ -34,8 +35,7 @@
 
 
 <h3 class ="formtitle">New book</h3>
-<!--エラーメッセージ-->
-<!--投稿フォーム-->
+
 
 <%= form_with model:@book, local:true do |f| %>
 
